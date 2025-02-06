@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form, Alert } from "react-bootstrap";
-import { createCustomer } from "../../services/api";
+import { createCustomer } from "../../Services/api";
 
 const CreateCustomerForm = () => {
   const [customer, setCustomer] = useState({ name: "", email: "", phone: "" });

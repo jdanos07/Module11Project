@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getCustomerById, deleteCustomer } from "../../services/api";
+import { getCustomerById, deleteCustomer } from "../../Services/api";
 import { Button, Card, Alert } from "react-bootstrap";
 import ConfirmationModal from "./ConfirmationModal";
 

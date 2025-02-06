@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getProducts } from "../../services/api";
+import { getProducts } from "../../Services/api";
 import { Table, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 

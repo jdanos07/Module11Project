@@ -27,7 +27,6 @@ export const deleteCustomer = async (id) => {
   return response.data;
 };
 
-// Product-related API calls
 export const getProducts = async () => {
   const response = await axios.get(`${API_URL}/products`);
   return response.data;
